@@ -1,0 +1,22 @@
+{
+    "name": "handcode/yii2-bootstrap-icons",
+    "description": "yii2asset bundle for bootstrap icons",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension", "assets", "icons","bootstrap icons"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Jens Giessmann",
+            "email": "jg@handcode.de"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "twbs/bootstrap-icons": "^v1.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "handcode\\bootstrapIcons\\": "src/"
+        }
+    }
+}
